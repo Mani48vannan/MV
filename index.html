@@ -109,7 +109,17 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
+.resume-wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.row .col-md-4 {
+    display: flex;
+    padding: 10px;
+}
 
 </style>
 
@@ -141,17 +151,16 @@
 	       <div class="slider-item ">
 	      	<div class="overlay"></div>
 	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/about-me.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+				<div class="row d-flex justify-content-center align-items-center slider-text" data-scrollax-parent="true" style="min-height: 100vh;">
+	          	
+				<div class="col-md-8 text-center d-flex align-items-center justify-content-center ftco-animate" style="min-height: 100vh;" data-scrollax=" properties: { translateY: '70%' }">
+
 		          	<div class="text">
 		          		<span class="subheading">Vanakam!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Manivannan</span></h1>
 
 						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+						<span id="typing-animation" class=" h4 d-block mt-3 text-center w-100"></span>
 
 						<script>
 
@@ -162,6 +171,7 @@
 						const typingTexts = [
 						'Engineer  ',
 						'Marketer  ',
+						'Consultant',
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -187,7 +197,7 @@
 
 						<br>
 						<br>
-			            <h2>Project Manager</h2>
+			            <h2>IT Infra Consultant</h2>
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
 			            <p><a href="https://www.linkedin.com/in/mani-vannanpt/" class="btn btn-white btn-outline-white py-3 px-4">LinkedIn</a>
@@ -214,7 +224,7 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+										<img src="images/imgg.jpeg" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
@@ -222,8 +232,8 @@
 									  <div class="about-info" style="font-family: Georgia, 'Times New Roman', Times, serif;">
 										<p><span class="title-s">Name: </span> <span>P T Manivannan</span></p>
 										<p><span class="title-s">Job Role: </span> <span>Management Trainee</span></p>
-										<p><span class="title-s">Experience: </span> <span>2years(internship)</span></p>
-										<p><span class="title-s">Address: </span> <span>chennai, India</span></p>
+										<p><span class="title-s">Experience: </span> <span>1 Year</span></p>
+										<p><span class="title-s">Address: </span> <span>Chennai, India</span></p>
 									  </div>
 									</div>
 								  </div>
@@ -248,7 +258,7 @@
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Statistical Analysis</span> <span class="pull-right">80%</span>
+									<span>Bid Management</span> <span class="pull-right">80%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
@@ -260,7 +270,7 @@
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>fun</span> <span class="pull-right">100%</span>
+									<span>Consultation</span> <span class="pull-right">80%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
@@ -277,13 +287,17 @@
 								<h1 class="big">Mani</h1>
 								<h2 class="mb-4">About Me</h2>
 								
-								<p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;"></pstyle>With over 5 years of comprehensive experience in marketing and product development, accompanied by a bachelor's degree in engineering and an MBA in marketing, I bring a robust skill set in digital marketing, content strategy, and market research. Proficient in SEO, social media management, customer behavior analysis, and data-driven marketing strategies. Demonstrated success in leading impactful projects, driving brand engagement, and providing effective mentorship in dynamic environments.
+								<p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;"></pstyle>With over 5 years of diverse experience across IT consulting, marketing, and product development, I bring a strong mix of technical and strategic skills. Backed by a Bachelor’s in Engineering and an MBA in Marketing, I currently work at HCLTech, managing bids and infrastructure solutions for global clients.
+
+									Proficient in market research, content strategy, digital tools, and analytics, I’m skilled in SEO, social media, RFP management, and customer behavior analysis. I’ve successfully led high-impact projects, won key deals, and actively contributed to team culture as part of Catalyst initiatives.
+									
+									Adaptable and data-driven, I thrive in fast-paced environments — building solutions, driving engagement, and mentoring others along the way..
 
 								</p>
 								<ul class="about-info mt-4 px-md-0 px-2" style="font-family: Georgia, 'Times New Roman', Times, serif;">
-									<li class="d-flex"><span>Profile:</span> <span>Marketing &amp; Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>FMCG, Ed-Tech, Wellness &amp; Technology</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+									<li class="d-flex"><span>Profile:</span> <span>IT Consulting, Marketing &amp; Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>IT, FMCG, Ed-Tech &amp; Wellness</span></li>
+									<li class="d-flex"><span>Education:</span> <span>BTech IT, MBA</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi, Tamil, Telugu</span></li>
 									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Alteryx</span></li>
 									<li class="d-flex"><span>Other Skills:</span> <span>HTML,CSS, Excel, Market Research, Shopify, Google Analytics &amp; SEO</span></li>
@@ -319,8 +333,7 @@
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
             <p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size: 16px;">
-				Seasoned Marketing Student with 2+ years of experience driving business growth through innovative marketing strategies. Proven expertise in digital marketing, content creation, SEO, market research, and project management. Equipped with a bachelor's degree in engineering and an MBA in marketing, adept at leveraging data-driven insights to enhance brand presence and engagement.
-			</p>
+				Multifaceted IT Consultant and Marketing Professional with 5+ years of experience driving business growth, leading bid management, and delivering innovative solutions across marketing and technology. Proficient in digital marketing, project execution, SEO, and strategic RFP handling. Backed by a Bachelor’s in Engineering and an MBA in Marketing, with a proven ability to turn data into insights, and insights into action. Adept at working across domains including Infrastructure Services, Ed-Tech, FMCG, and Wellness to create lasting business impact			</p>
 			
           </div>
         </div>
@@ -330,54 +343,68 @@
 			<div class="underline"></div>
 		</div>
 		<br>
-		
 		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2023 July-Sep</span>
-						<h2> Summer Trainee</h2>
-						<span class="position">pladis Global</span>
-						<a href="https://pladisglobal.com/">
-							<img src="images/pladis.png" class="img-fluid rounded b-shadow-a" style="opacity: 0.75; width: 200px; height: auto;" alt="">
-						</a>
-						
-						<p class="mt-4">Pladis Global, a 300yr old snack foods company with over 16K+ employees worldwide. It's part of Yildiz Holding. 
-							<ul>
-							
-								<li>Conducted market research and sales analysis, identified consumer trends, and launched a successful new product line.</li>
-								<li>Developed sales projection models to forecast demand and optimize inventory management, achieving 90% accuracy.</li>
-								<li> Designed and implemented marketing strategies, leading to a 15% MoM increase in product sales and improved market penetration.</li>
-							</ul>
-						</p>
-					</div>
+	<!-- HCLTech -->
+	<div class="col-md-4">
+		<div class="resume-wrap ftco-animate">
+			<span class="date">2023–Present</span>
+			<h2>IT Infrastructure Consultant & Bid Manager</h2>
+			<span class="position">HCLTech</span>
+			<a href="https://www.hcltech.com/">
+				<img src="images/hcltech.png" class="img-fluid rounded b-shadow-a" style="opacity: 0.75; width: 200px; height: auto;" alt="">
+			</a>
+			<p class="mt-4">HCLTech is a global IT company delivering digital transformation across 60+ countries.
+				<ul>
+					<li>Managed end-to-end bids for global clients and contributed to key deal wins.</li>
+					<li>Delivered IT infrastructure solutions aligned with business needs.</li>
+					<li>Organized team engagement events as part of Catalyst initiatives.</li>
+					<li>Supported strategic accounts with frequent travel across India.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
 
-				</div>
+	<!-- Pladis -->
+	<div class="col-md-4">
+		<div class="resume-wrap ftco-animate">
+			<span class="date">2023 July–Sep</span>
+			<h2>Summer Trainee</h2>
+			<span class="position">pladis Global</span>
+			<a href="https://pladisglobal.com/">
+				<img src="images/pladis.png" class="img-fluid rounded b-shadow-a" style="opacity: 0.75; width: 200px; height: auto;" alt="">
+			</a>
+			<p class="mt-4">Pladis Global, a snack foods company with 16K+ employees globally.
+				<ul>
+					<li>Conducted market research and led new product launch.</li>
+					<li>Built accurate sales forecasting models.</li>
+					<li>Executed marketing campaigns driving 15% MoM growth.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
 
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2022-2023</span>
-						<h2>The Marketing Guy</h2>
-						<span class="position">Chittoo Tech</span>
-						<a href="https://chittoo.com/">
-							<img src="images/chittoo.png" class="img-fluid rounded b-shadow-a" style="opacity: 0.75; width: 200px; height: auto;" alt="">
-						</a>
-						
-						<p class="mt-4">Chittoo Tech Pvt. Ltd., an innovative Ed-Tech company focused on AI-based solutions for education 
-							<ul>
-								<li>Conducted extensive market research and competitor Analysis to understand the market well and thoroughly then did user behavior analysis, leading to a comprehensive app redesign.</li>
-								<li>Developed machine learning models to enhance user engagement, resulting in a 30% increase in active users.</li>
-								<li>Implemented customer feedback mechanisms, improving product features and overall user satisfaction by 25%.</li>
-							</ul>
-						</p>
-					</div>
-
-				</div>
+	<!-- Chittoo -->
+	<div class="col-md-4">
+		<div class="resume-wrap ftco-animate">
+			<span class="date">2022–2023</span>
+			<h2>The Marketing Guy</h2>
+			<span class="position">Chittoo Tech</span>
+			<a href="https://chittoo.com/">
+				<img src="images/chittoo.png" class="img-fluid rounded b-shadow-a" style="opacity: 0.75; width: 200px; height: auto;" alt="">
+			</a>
+			<p class="mt-4">Chittoo Tech, an Ed-Tech company focused on AI solutions for learning.
+				<ul>
+					<li>Led market research & redesigned the product based on user insights.</li>
+					<li>Created ML models to boost engagement by 30%.</li>
+					<li>Improved user satisfaction by 25% with feature updates.</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</div>	
 
 				
-			</div>
-
-		<br>
-		<br>
+		
 
 		<div class="row">
 			<h1 class="big-4">Education</h1>
